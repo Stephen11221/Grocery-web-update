@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><span class="text-success btn btn-warning"><i
+                                class="fa fa-shopping-basket"></i><span class="text-white">Grocery <i
+                                    class="fa fa-tree text-success "></i></span></span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-success" href="#most-order">Browse Our hostest </a></li>
+                                    <li><a class="dropdown-item text-success" href="#popular-order">Most popular orders</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider bg-warning">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"> </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#product" class="nav-link">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#contact-form" tabindex="-1" aria-disabled="true">Contact
+                                    us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search for fruit"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> <br> <br> <br>
+    <div class="home container pt-3" id="home">
+       <div class="row ">
+                    
+            <div class="col-lg-6">
+                <span class="text-success"><i class="fa fa-shopping-cart"></i>  Shop for Grocceries </span>
+                <h1 class="text-primary pt-2">Affordable Grocceries at your fingertip get up to <span class="text-warning">20%</span> <br> Discount</h1>
+                <button class="bg-success p-2 text-white " type="button">GET STARTED</button>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/banner-1.jpg" class="" alt="">
+            </div>
+
+        </div>
+   
+
+    </div> <br>  <br> <br> <br>
+    <div id="about">
+        <div class="container">
+            <h1 class="text-success pt-3">About page</h1>
+            <p>A grocery store <i class="fa fa-market"></i>,  grocery shop or simply grocery is a foodservice retail store that primarily retails a general range of
+            food products, which may be fresh or packaged. In everyday U.S. usage, however, "grocery store" is a synonym for
+            supermarket, and is not used to refer to other types of stores that sell groceries. </p>
+            <p>we have different platform for selling our grocery. Once you use our platform to order something we don't take you for granted. . We have diffent packet that we can deliver to you as our client and different way off delivering </p>
+            <h6 class="text-warning btn btn-secondary p-3 ">We have them in our category </h6>
+        </div>
+    </div> <br> <br> <hr class="bg-success">
+    <div class="category" id="categories">
+        <div class="container">
+            <h4  class="p-3 text-success">Category page</h4>
+            <div class="row">
+                <div class="col-lg-12 p-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/category-1.png" id="most-order" width="400px" alt="">
+                        </div> 
+                        <div class="col-lg-4">
+                            <img src="images/category-2.png" width="400px" id="popular-order" alt="">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/category-3.png" width="400px" id="most-order" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 p-3">
+                    <img src="images/category-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="product container-fluid" id="product">
+        <h2 class="text-success pt-3 p-4">Product </h2> <hr class="bg-success">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper ">
+                <!-- Slides -->
+                <div class="swiper-slide ">
+                        <div class="row ">
+                            <div class="col-lg-6">
+                                <form action="" class="bg-warning pt-4." style=" width: 150px;height: 290px  ;">
+                                    <h6 cla ss="text-dark  " style="text-align: center;">Add list</h6>
+                                </form>                    
+                                <div class="grid">
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-1.png" alt="">
+                                            <span>Banana</span>
+                                            <span class="text-muted">Price:</span>
+                                            <button class="bg-success text-white  " style="text-align: center;">Addcart
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-2.png" alt="">
+                                            <span>Tomato</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-3.png" alt="">
+                                            <span>Orange</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-4.png" alt="">
+                                            <span>Milk</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-5.png" alt="">
+                                            <span>Black Berries</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-6.png" alt="">
+                                            <span>Coco nut</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success  text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span  class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-7.png" alt="">
+                                            <span>Apple</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-8.png" alt="">
+                                            <span>Cheesse</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-9.png" alt="">
+                                            <span>Carrot</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-bag"></i></span>
+                                            <img src="images/product-10.jpg" alt="">
+                                            <span>Onion</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <div class="row">
+                        <div class="col-lg-6">
+                                <form action="" class="bg-warning" style=" width: 150px;height: 290px  ;">
+                                    <h6 cla ss="text-dark  " style="text-align: center; color: blue;">Add list</h6>
+                                </form>
+                                <div class="grid">
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-11.jpg" alt="">
+                                            <span>Dania</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-12.jpg" alt="">
+                                            <span>Hoho</span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-13.jpg" alt="">
+                                            <span>Lemon </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-14.jpg" alt="">
+                                            <span>Red Chilli </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-15.jpg" alt="">
+                                            <span>Cabage </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-16.jpg" alt="">
+                                            <span>Eggs </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-17.jpg" alt="">
+                                            <span>White Onion </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-18.jpg" alt="">
+                                            <span>Paw paw </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-19.jpg" alt="">
+                                            <span>Potatos </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card">
+                                            <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                            <img src="images/product-20.jpg" alt="">
+                                            <span>Greek Yogut <i class="fa fa-users"></i> </span>
+                                            <span class="text-muted">Price</span>
+                                            <button class="bg-success text-white">Addcart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form action="" class="bg-warning" style=" width: 150px;height: 290px  ;">
+                                <h6 cla ss="text-dark  " style="text-align: center; color: blue;">Add list</h6>
+                            </form>
+                            <div class="grid">
+                                <div class="item">
+                                    <div class="card">
+                                        <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                        <img src="images/product-21.jpg" alt="">
+                                        <span>Water Melon  </span>
+                                        <span class="text-muted">Price</span>
+                                        <button class="bg-success text-white">Addcart</button>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                        <img src="images/product-22.jpg" style="border-radius: 10px;" alt="">
+                                        <span>Crown Milk </span>
+                                        <span class="text-muted">Price</span>
+                                        <button class="bg-success text-white">Addcart</button>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <span class="shop"><i class="fa fa-shopping-basket"></i></span>
+                                        <img src="images/prodcut-29.jpg" alt="">
+                                        <span>Diles Yogut <i class="fa fa-users"></i> </span>
+                                        <span class="text-muted">Price</span>
+                                        <button class="bg-success text-white">Addcart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </div>
+
+    <div class="container" id="contact-form">
+        <marquee behavior="" direction="">
+            <h2 class="text-success">Contact </h2>
+        </marquee>
+        <form action="index.html" method="post">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control bg-secondary">
+                </div>
+                <div class="col-lg-6">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control bg-secondary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <label for="">Phone Number</label>
+                    <input type=" number" class="form-control bg-secondary">
+                </div>
+                <div class="col-lg-6">
+                    <label for="">Messange</label>
+                    <textarea name="" id="" class="form-control bg-secondary" cols="10" rows="3"></textarea>
+                </div>
+            </div>
+            <button class="  btn btn-success">Submit Message</button> <br>  <br>
+        </form>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="p-3 text-danger">
+                    <h6>Social media</h6>
+                    <a href="" class="btn btn-primary "><i class="fa fa-facebook"></i></a>
+                    <a href="" class="btn btn-danger"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="btn btn-success"><i class="fa fa-whatsapp"></i></a>
+                    <a href="" class="btn btn-primary"><i class="fa fa-twitter"></i></a>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h6>You can call our customer care number <i class="fa fa-mobile fa-2x"></i></h6>
+                <p> +254 76974703 <a href="" class="btn btn-light"><i class="fa fa-user fa-2x"></i></a></p>
+            </div>
+            <div class="col-lg-4"> <br>
+                <form action="">
+                    <input type="email" placeholder="Email. @Example " class="pt-1 p-2">
+                    <button class="btn btn-success p-2" >Subscribe</button> 
+                </form> 
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.js.map"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+
+</html>
