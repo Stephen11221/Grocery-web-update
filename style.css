@@ -53,8 +53,13 @@
 }
 
 .grid>div {
+    transition: transform 0.3s ease-in-out;
     margin-top: 15px;
     margin-left: 10px;
+}
+.grid>div:hover{
+    transform:  translateY(-20px);
+
 }
 
 .grid .shop {
@@ -84,7 +89,7 @@
     margin-top: 180px;
     margin-bottom: 33px;
 }
-.input-borders{
+.card .input-borders{
     border-bottom: 1px solid black ;
     border-top: none;
     border-left: none;
