@@ -33,6 +33,9 @@
 .home{
     height: 70vh;
 }
+.home img{
+    width: 300px;
+}
 .about{
     height: 80vh;
 }
@@ -41,11 +44,12 @@
     border-bottom: 3px solid black;
 }
 .category img{
-    margin-top: 120px;
+    margin-top: 10px;
     width: 300px;
     height: 300px;
 }
 .grid {
+    padding: 10px 10px;
     display: grid;
     margin-left: 160px;
     margin-top: -260px;
@@ -57,9 +61,19 @@
     margin-top: 15px;
     margin-left: 10px;
 }
+
+/*HOVERS RES*/
 .grid>div:hover{
+    color: orange;
     transform:  translateY(-20px);
 
+}
+.grid .shop :hover{
+    color: orange;
+}
+.grid >div button{
+    border-radius: 5px;
+    border: none;
 }
 
 .grid .shop {
@@ -81,9 +95,12 @@
     width: 180px;
     height: 180px;
 }
+.grid>div img :hover{
+    border:  2px solid green;
+}
 /* contact margin-top(important)*/
 #contact-form {
-    background: gainsboro;
+    background: whitesmoke;
     border-radius: 10px;
     border: 1px solid gray;
     margin-top: 180px;
@@ -99,17 +116,29 @@ footer{
     width: 100%;
     height: 100px;
     display: block;
-    background: lightgreen;
+    color: #fff ;
+    background: green;
 }
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 600px) {
     .home img{
+        width: 530px;
         margin-top: 20px;
           }
-    
-
+    .category img{
+        height: 250px;
+    }
+    .about{
+        
+        margin-top: 180px;
+    }
+        .product{
+            margin-top: 220px;
+        }
 
     .grid {
-        margin-top: -330px;
+        margin-left:100px ;
+        margin-top: 50px;
+        width: 60px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

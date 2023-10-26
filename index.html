@@ -29,10 +29,10 @@
                     <div class="collapse navbar-collapse  container " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active-link" aria-current="page" href="#index">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -66,15 +66,15 @@
             </nav>
         </div>
     </header> <br> <br> <br>
-    <div class="home container pt-3" id="home">
+    <div class="home container " id="home">
        <div class="row ">
                     
             <div class="col-lg-6">
                 <span class="text-success"><i class="fa fa-shopping-cart"></i>  Shop for Grocceries </span>
-                <h1 class="text-primary  pt-2">Affordable Grocceries at your fingertip get up to <span class="text-warning">20%</span> <br> Discount</h1>
+                <h1 class="text-primary display-6  pt-2">Affordable Grocceries at your fingertip get up to <span class="text-warning">20%</span> <br> Discount</h1>
                 <a class="btn btn-success p-2 text-white " type="button" href="#product">Start Shopping</a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6"> 
                 <img src="images/category-1.png" class="img-thumbnail img-fluid" alt="">
             </div>
 
@@ -85,8 +85,15 @@
     </div> <br>  
     <div class="about" id="about">
         <div class="container">
-            <h1 class="text-success pt-3">About page</h1>
-            <p></p>
+            <h4 class="text-center">About us / blog</h4>
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>We started selling Grocceries back in may 12 <sup>th</sup> 2011 at a shop called Njimi Ngige. Our business started booming day by day which was good. After growing for a while we decided to go in to internation market that when we created our first Grocery page <a href="https://stephen11221.github.io/Grocery-web-update/" target="_blank" class="text-warning">Groce-Chenge.com</a>.  The website helped our customer to shop online instead of coming to our stores. This made our work easy and we got new customer from all over the country. We created our customer care group in June 1 <sup>rst</sup> 2012 because we had more customers from all over the country.   </p>
+                    <p>You can visit the other website <a href="https://stephen11221.github.io/Grocery-web-update/" target="_blank">WWW.MbuziGroce.com</a></p>
+                    <p class="text-muted">We have delivery services were by we deliver what you bought from our website for free within Nairobi and Kiambu county.</p>
+
+                </div>
+            </div>
         </div>
     </div> <br> <br> <hr class="bg-success">
     <div class="category" id="categories">
@@ -382,10 +389,11 @@
     </div>
 
    <div class="container" id="contact-form">
-    <h4>Contact page</h4>
-    <div class="row">
+    
+    <div class="row p-4">
         <div class="col-lg-6 ">
             <form action="index.html" method="post" class="p-3 bg-light">
+                <h6 class="text-muted">Contact page</h6>
                 <div class="card p-3">
                     <div class="row">
                         <div class="col-lg-8">
@@ -411,11 +419,63 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <label for="">Message</label>
-                            <textarea name="" id="" cols="30" rows="8" class="form-control input-borders"></textarea>
+                            <textarea name="" id="" placeholder="Type your Message" cols="30" rows="8" class="form-control input-borders"></textarea>
                         </div>
                     </div>
                 </div>
+                <p><input type="checkbox" name="" id="" class=" p-3"> Agree with terms and conditions  </p>
+                <button class="btn btn-success">Submit</button>
+                <p class="text-muted">People who visit  our website to shop for Grocceries</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
             </form> <br>
+        </div>
+        <div class="col-lg-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/category-1.png" class="d-block w-100 img-thumbnail" alt="">
+               
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-1.jpg" class="d-block w-100 img-thumbnail" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-2.jpg" class="d-block w-100 img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active text-success"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden" >Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> <br>
+            <div class="card pt-3 p-4">
+                <div class="icon">
+                    <span><i class="fa fa-map-marker text-success fa-2x"></i></span>
+                    <span class="p-3">Nairobi Groce-Chenge market <br> 1 <sup>rst</sup>and 2 <sup>nd</sup> flow</span> <br>
+                    <span><i class="fa fa-facebook text-success fa-2x"></i></span>
+                    <span class="p-3">Groce-Chenge</span> <br>
+                    <span><i class="fa fa-whatsapp text-success fa-2x"></i></span>
+                    <span class="p-3">0769 747 803</span>
+                    
+                </div>
+            </div>
         </div>
     </div>
    </div>
@@ -449,5 +509,4 @@
     <script src="bootstrap.bundle.js.map"></script>
     <script src="bootstrap.bundle.js"></script>
 </body>
-
 </html>
